@@ -23,29 +23,29 @@ O projeto está organizado em três camadas principais para garantir a organiza�
 Representa a entidade básica do sistema.
 - **Atributos:** Nome do produto (`String`) e quantidade (`int`).
 - **Encapsulamento:** Todos os atributos são privados, acessados via métodos *getters* e *setters*.
-- [cite_start]**Representação:** Sobrescrita do método `toString()` para exibição formatada dos dados do item[cite: 64, 93].
+- **Representação:** Sobrescrita do método `toString()` para exibição formatada dos dados do item.
 
 ### 2. Controle (`controller.ListaDeCompras`)
-[cite_start]Contém a lógica de gerenciamento da coleção[cite: 20].
-- [cite_start]Responsável por adicionar itens, remover por nome, buscar itens específicos e formatar a lista completa para a visão[cite: 38, 61].
-- [cite_start]Implementa a restrição de uso de `ArrayList` puro (sem `<ItemCompra>`)[cite: 69].
+Contém a lógica de gerenciamento da coleção.
+- Responsável por adicionar itens, remover por nome, buscar itens específicos e formatar a lista completa para a visão.
+- Implementa a restrição de uso de `ArrayList` puro (sem `<ItemCompra>`).
 
 ### 3. Visão (`view.ComprasMain`)
-[cite_start]Classe principal que contém o método `main`[cite: 34, 35].
-- [cite_start]Gerencia a interface com o usuário utilizando a classe `Scanner`[cite: 16, 88].
-- [cite_start]Exibe o menu interativo e valida a entrada de dados (incluindo a limpeza de buffer do teclado)[cite: 37, 89].
+Classe principal que contém o método `main`.
+- Gerencia a interface com o usuário utilizando a classe `Scanner`.
+- Exibe o menu interativo e valida a entrada de dados (incluindo a limpeza de buffer do teclado).
 
 ---
 
 ## 🚀 Funcionalidades
 
-[cite_start]De acordo com as especificações exigidas[cite: 38]:
+De acordo com as especificações exigidas:
 
-1.  [cite_start]**Inserir Item:** Solicita nome e quantidade, cria o objeto e adiciona à lista[cite: 39, 43, 44].
-2.  [cite_start]**Remover Item:** Localiza e remove um produto pelo nome exato, independentemente de como foi digitado (Maiúsculas/Minúsculas)[cite: 46, 48, 50].
-3.  [cite_start]**Consultar Item:** Verifica a existência de um produto na lista e exibe seus detalhes se encontrado[cite: 54, 57, 58].
-4.  [cite_start]**Exibir Lista:** Lista todos os produtos cadastrados indicando sua posição (índice + 1) e detalhes[cite: 61, 64].
-5.  [cite_start]**Sair:** Finaliza a execução do programa com uma mensagem de despedida[cite: 65, 66].
+1.  **Inserir Item:** Solicita nome e quantidade, cria o objeto e adiciona à lista.
+2.  **Remover Item:** Localiza e remove um produto pelo nome exato, independentemente de como foi digitado (Maiúsculas/Minúsculas).
+3.  **Consultar Item:** Verifica a existência de um produto na lista e exibe seus detalhes se encontrado.
+4.  **Exibir Lista:** Lista todos os produtos cadastrados indicando sua posição (índice + 1) e detalhes.
+5.  **Sair:** Finaliza a execução do programa com uma mensagem de despedida[cite: 65, 66].
 
 ---
 
