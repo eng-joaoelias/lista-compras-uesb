@@ -59,7 +59,7 @@ De acordo com as especificações exigidas:
 
 ## 🔧 Como Executar
 
-1. [cite_start]Clone este repositório ou baixe os arquivos `.java`[cite: 95].
+1. Clone este repositório ou baixe os arquivos `.java`.
 2. Certifique-se de manter a estrutura de pacotes:
    - `src/model/ItemCompra.java`
    - `src/controller/ListaDeCompras.java`
