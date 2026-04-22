@@ -6,12 +6,12 @@ Este projeto consiste em um sistema de gerenciamento de lista de compras operado
 
 ## 📋 Requisitos do Projeto
 
-[cite_start]O sistema foi desenvolvido seguindo rigorosamente as especificações técnicas descritas no roteiro da avaliação[cite: 4]:
+O sistema foi desenvolvido seguindo rigorosamente as especificações técnicas descritas no roteiro da avaliação:
 
-- [cite_start]**Manipulação de Dados:** Uso obrigatório de `ArrayList` sem o uso de *generics* (tipagem genérica)[cite: 9, 69].
-- [cite_start]**Segurança de Tipos:** Implementação de *casting* manual para a classe de modelo ao recuperar objetos da lista[cite: 70, 83].
-- [cite_start]**Interatividade:** Menu de texto cíclico com operações de inserção, remoção, consulta e listagem[cite: 10, 37].
-- [cite_start]**Regras de Negócio:** Comparação de nomes de produtos de forma *case-insensitive* (ignorando maiúsculas e minúsculas)[cite: 48, 74].
+- **Manipulação de Dados:** Uso obrigatório de `ArrayList` sem o uso de *generics* (tipagem genérica).
+- **Segurança de Tipos:** Implementação de *casting* manual para a classe de modelo ao recuperar objetos da lista.
+- **Interatividade:** Menu de texto cíclico com operações de inserção, remoção, consulta e listagem.
+- **Regras de Negócio:** Comparação de nomes de produtos de forma *case-insensitive* (ignorando maiúsculas e minúsculas).
 
 ---
 
@@ -20,9 +20,9 @@ Este projeto consiste em um sistema de gerenciamento de lista de compras operado
 O projeto está organizado em três camadas principais para garantir a organização e facilidade de manutenção (padrão similar ao MVC):
 
 ### 1. Modelo (`model.ItemCompra`)
-[cite_start]Representa a entidade básica do sistema[cite: 23].
-- [cite_start]**Atributos:** Nome do produto (`String`) e quantidade (`int`)[cite: 25, 26, 27].
-- [cite_start]**Encapsulamento:** Todos os atributos são privados, acessados via métodos *getters* e *setters*[cite: 30, 86].
+Representa a entidade básica do sistema.
+- **Atributos:** Nome do produto (`String`) e quantidade (`int`).
+- **Encapsulamento:** Todos os atributos são privados, acessados via métodos *getters* e *setters*.
 - [cite_start]**Representação:** Sobrescrita do método `toString()` para exibição formatada dos dados do item[cite: 64, 93].
 
 ### 2. Controle (`controller.ListaDeCompras`)
