@@ -72,16 +72,3 @@ De acordo com as especificações exigidas:
    ```bash
    java view.ComprasMain
    ```
-
----
-
-## 📝 Critérios Técnicos Atendidos
-
-- [x] [cite_start]Separação clara entre classes de modelo e lógica principal[cite: 85].
-- [x] [cite_start]Uso de modificadores de acesso `private` para atributos[cite: 86].
-- [x] [cite_start]Implementação de *Casting* manual: `ItemCompra item = (ItemCompra) lista.get(i);`[cite: 70].
-- [x] [cite_start]Uso de `equalsIgnoreCase` para tratamento de strings[cite: 74].
-- [x] [cite_start]Interface amigável e mensagens de confirmação ao usuário[cite: 91, 92].
-
----
-[cite_start]**Desenvolvido como critério de avaliação acadêmica.** [cite: 75, 76]
