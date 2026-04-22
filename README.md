@@ -45,7 +45,7 @@ De acordo com as especificações exigidas:
 2.  **Remover Item:** Localiza e remove um produto pelo nome exato, independentemente de como foi digitado (Maiúsculas/Minúsculas).
 3.  **Consultar Item:** Verifica a existência de um produto na lista e exibe seus detalhes se encontrado.
 4.  **Exibir Lista:** Lista todos os produtos cadastrados indicando sua posição (índice + 1) e detalhes.
-5.  **Sair:** Finaliza a execução do programa com uma mensagem de despedida[cite: 65, 66].
+5.  **Sair:** Finaliza a execução do programa com uma mensagem de despedida.
 
 ---
 
